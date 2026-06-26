@@ -77,6 +77,7 @@ cv:
 
     Projects:
       - name: Diagnosing View-Consistency Failures in Affordance Prediction Models
+        url: https://github.com/shilpitha-03/ViewConsistency_affordance
         start_date: 2026-01
         end_date: 2026-05
         summary: "Graduate course research project"
@@ -91,6 +92,7 @@ cv:
           - "Adapting a multimodal RAG pipeline to automate surgical operative-note generation from procedural video, as part of a research team working toward publication."
 
       - name: Probing Visual Affordance in Vision-Language-Action Encoders
+        url: https://github.com/shilpitha-03/VLA-affordance
         start_date: 2026-01
         end_date: 2026-05
         summary: "Research contributor — graduate course research project"
