@@ -22,7 +22,7 @@ cv:
         studyType: MSE
         start_date: 2025-08
         end_date: 2027
-        courses: "Deep Learning (A+), Computer Vision (A-), Deep Reinforcement Learning"
+        courses: "Deep Learning (A+), Computer Vision (A-), Learning Based Vision"
 
       - institution: Amrita Vishwa Vidyapeetham
         location: Coimbatore, India
@@ -76,6 +76,27 @@ cv:
         summary: "Diffusion-based optimization for collision-free trajectory planning in UAV swarms (pages 911–916)."
 
     Projects:
+      - name: Diagnosing View-Consistency Failures in Affordance Prediction Models
+        start_date: 2026-01
+        end_date: 2026-05
+        summary: "Graduate course research project"
+        highlights:
+          - "Diagnosed failure modes across two affordance pipelines (RoboPoint/CLIP, GAT/DINOv2) and showed the dominant failure axis is functional-part visibility rather than viewpoint: grasp confidence fell from 0.99 (part visible) to 0.56 (fully occluded)."
+          - "Proposed the model's internal grasp-confidence score as a training-free signal a downstream VLA policy can read to trigger active perception, requiring no retraining of the affordance backbone."
+
+      - name: Multimodal Retrieval-Augmented Generation for Surgical Documentation
+        start_date: 2026-01
+        summary: "Graduate research, ongoing"
+        highlights:
+          - "Adapting a multimodal RAG pipeline to automate surgical operative-note generation from procedural video, as part of a research team working toward publication."
+
+      - name: Probing Visual Affordance in Vision-Language-Action Encoders
+        start_date: 2026-01
+        end_date: 2026-05
+        summary: "Research contributor — graduate course research project"
+        highlights:
+          - "Characterized how part/affordance structure evolves across VLA fine-tuning stages (SigLIP → π0 → π0.5) using per-layer PCA and subspace-projection analysis, identifying a stage-specific representation collapse invisible to supervised probing."
+
       - name: Neural Deblurring for Robust Image Stitching
         url: https://github.com/shilpitha-03/CVFinalProject
         start_date: 2025-08
@@ -107,7 +128,7 @@ cv:
       - name: Programming
         keywords: "Python, C++, C, MATLAB"
       - name: ML / Vision
-        keywords: "PyTorch, OpenCV, CNNs (YOLO, Faster R-CNN), SIFT, SuperPoint, ORB-SLAM"
+        keywords: "PyTorch, OpenCV, VLMs & VLA models, diffusion models, DINOv2, CNNs (YOLO, Faster R-CNN), SIFT, SuperPoint, ORB-SLAM"
       - name: Development Tools
         keywords: "Docker, Linux, CMake, Git, AutoCAD"
       - name: Robotics
