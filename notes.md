@@ -14,3 +14,7 @@ Scratch space for thoughts while reading or learning. Excluded from the Jekyll b
 ---
 
 ## 2026-05-21 — first entry
+
+constraints:
+sample efficiency
+multimodality.
