@@ -41,10 +41,10 @@ cv:
         start_date: 2025-01
         end_date: 2025-07
         highlights:
-          - "Developed vision-based obstacle detection system for GPS-denied UAV flight by collecting 2,500+ annotated images, training CNN models, and deploying to embedded hardware, enabling autonomous navigation in indoor environments."
-          - "Implemented camera-based visual odometry algorithms for indoor localization, iteratively testing and refining approaches like ORB-SLAM to achieve reliable position estimation under challenging real-world conditions through 10+ flight tests."
-          - "Designed MPC trajectory controller for PX4-based UAV using Python and C++, integrating with ROS2 pipeline for waypoint navigation and automated testing in Gazebo simulation; used Docker, Linux, and CMake for reproducible development workflows."
-          - "Validated detection models through sim-to-real testing in Gazebo and hardware flights, iterating to improve real-world performance by addressing lighting variation and motion blur."
+          - "Built a vision-based obstacle-detection system for GPS-denied indoor UAV flight: collected and annotated 2,500+ 
+            images, trained CNN detectors, and deployed to embedded hardware for autonomous navigation. 
+          - "Implemented visual odometry for indoor localization and an MPC trajectory controller (Python/C++, ROS2, PX4), 
+            validated in Gazebo and across 10+ hardware flight tests (Docker, Linux, CMake). "
 
       - company: Indian Institute of Technology (IIT)
         position: Research Intern — Autonomous Mobile Robot
@@ -52,9 +52,9 @@ cv:
         start_date: 2024-06
         end_date: 2024-08
         highlights:
-          - "Benchmarked classical (A*, RRT, APF) and RL-based path planning algorithms in ROS2 for AMR navigation, with the RL approach achieving the highest success rate in cluttered environments."
-          - "Achieved 97.8% pathfinding success rate across 500+ trials in environments with dynamic obstacles and narrow corridors using a tuned RL policy."
-          - "Integrated LiDAR and IMU sensors on TurtleBot3 hardware, calibrating sensor fusion for accurate localization and collision avoidance."
+          - "Benchmarked classical (A*, RRT, APF) and RL-based path planning algorithms in ROS2 for AMR navigation, with 
+            RL approach achieving highest success rate in cluttered environments. Achieved 97.8% pathfinding success rate in 
+            environments with dynamic obstacles and narrow corridors. "
 
       - company: Johns Hopkins University
         position: Course Assistant — Computer Vision
