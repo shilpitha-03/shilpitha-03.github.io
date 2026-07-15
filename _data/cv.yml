@@ -44,7 +44,7 @@ cv:
           - "Built a vision-based obstacle-detection system for GPS-denied indoor UAV flight: collected and annotated 2,500+ 
             images, trained CNN detectors, and deployed to embedded hardware for autonomous navigation. 
           - "Implemented visual odometry for indoor localization and an MPC trajectory controller (Python/C++, ROS2, PX4), 
-            validated in Gazebo and across 10+ hardware flight tests (Docker, Linux, CMake). "
+            validated in Gazebo and across 10+ hardware flight tests (Docker, Linux, CMake)."
 
       - company: Indian Institute of Technology (IIT)
         position: Research Intern — Autonomous Mobile Robot
@@ -54,7 +54,7 @@ cv:
         highlights:
           - "Benchmarked classical (A*, RRT, APF) and RL-based path planning algorithms in ROS2 for AMR navigation, with 
             RL approach achieving highest success rate in cluttered environments. Achieved 97.8% pathfinding success rate in 
-            environments with dynamic obstacles and narrow corridors. "
+            environments with dynamic obstacles and narrow corridors."
 
       - company: Johns Hopkins University
         position: Course Assistant — Computer Vision
