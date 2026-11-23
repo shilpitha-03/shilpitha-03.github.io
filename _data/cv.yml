@@ -41,26 +41,27 @@ cv:
         start_date: 2025-01
         end_date: 2025-07
         highlights:
-          - "Built a vision-based obstacle-detection system for GPS-denied indoor UAV flight: collected and annotated 2,500+ 
-            images, trained CNN detectors, and deployed to embedded hardware for autonomous navigation. 
-          - "Implemented visual odometry for indoor localization and an MPC trajectory controller (Python/C++, ROS2, PX4), 
-            validated in Gazebo and across 10+ hardware flight tests (Docker, Linux, CMake)."
+          - "Designed an MPC trajectory-tracking controller for a quadrotor interception task (Python, ROS2, PX4) in Gazebo simulation, alongside visual odometry for indoor localization and a vision-based obstacle-detection system for GPS-denied indoor UAV flight, deployed to embedded hardware for autonomous navigation."
+          - "Validated across 10+ hardware flight tests with progressively harder reference trajectories."
 
       - company: Indian Institute of Technology (IIT)
-        position: Research Intern — Autonomous Mobile Robot
+        position: Research Intern — Autonomous Mobile Robots
         location: Palakkad, India
         start_date: 2024-06
         end_date: 2024-08
         highlights:
-          - "Benchmarked classical (A*, RRT, APF) and RL-based path planning algorithms in ROS2 for AMR navigation, with 
-            RL approach achieving highest success rate in cluttered environments. Achieved 97.8% pathfinding success rate in 
-            environments with dynamic obstacles and narrow corridors."
+          - "Benchmarked classical (A*, RRT, APF) and RL-based path planning algorithms in ROS2 for AMR navigation, with RL approach achieving highest success rate in cluttered environments. Achieved 97.8% pathfinding success rate in environments with dynamic obstacles and narrow corridors."
 
       - company: Johns Hopkins University
         position: Course Assistant — Computer Vision
         location: Baltimore, MD
         start_date: 2026-01
         end_date: 2026-05
+
+      - company: Johns Hopkins University
+        position: Course Assistant — Algorithms for Sensor-Based Robotics
+        location: Baltimore, MD
+        start_date: 2026-08
 
     Publications:
       - title: "DISCO: Diffusion-Based Inter-Agent Swarm Collision-Free Optimization for UAVs"
@@ -76,6 +77,15 @@ cv:
         summary: "Diffusion-based optimization for collision-free trajectory planning in UAV swarms (pages 911–916)."
 
     Projects:
+      - name: "Viam Edge of Intelligence Hackathon: Winner, “Teach It by Showing” Challenge"
+        url: https://www.linkedin.com/feed/update/urn:li:activity:7529573933327671296/
+        start_date: 2026-11
+        summary: "Team of 4, 15-hour build; won out of 9 teams on the challenge track, New York, NY"
+        highlights:
+          - "Designed a hierarchical pick-and-pack system for a UFactory xArm in clutter: a state-machine orchestrator for high-level planning (policy selection, visual verification, retries), learned policies for grasping, classical placement."
+          - "Trained ACT for rigid objects and SmolVLA for deformable ones (cap, T-shirt), where ACT lacked grasp coverage."
+          - "Built a SAM3 pipeline masking distractors in training and inference, letting ~20–25 teleop demos per object generalize across clutter and real demos match MuJoCo renders for synthetic-data augmentation."
+
       - name: Diagnosing View-Consistency Failures in Affordance Prediction Models
         url: https://github.com/shilpitha-03/ViewConsistency_affordance
         start_date: 2026-01
@@ -91,6 +101,20 @@ cv:
         highlights:
           - "Adapting a multimodal RAG pipeline to automate surgical operative-note generation from procedural video, as part of a research team working toward publication."
 
+      - name: Multi-Task Imitation Learning on SO-101 Arm
+        start_date: 2026-08
+        end_date: 2026-12
+        summary: "Graduate course project"
+        highlights:
+          - "Collected teleoperated demonstrations and trained LeRobot policies for cube pick-and-place and cube stacking."
+
+      - name: Long-Horizon Robot Learning with Adaptive Replay Sampling
+        start_date: 2026-08
+        end_date: 2026-12
+        summary: "Graduate course project"
+        highlights:
+          - "Reproducing DEMO3 results and extending them with adaptive replay-buffer sampling for long-horizon manipulation."
+
       - name: Probing Visual Affordance in Vision-Language-Action Encoders
         url: https://github.com/shilpitha-03/VLA-affordance
         start_date: 2026-01
@@ -104,34 +128,43 @@ cv:
         start_date: 2025-08
         end_date: 2025-12
         highlights:
-          - "Built panorama stitching pipeline combining neural deblurring (fine-tuned Restormer) with SIFT and SuperPoint feature matching to handle motion-blurred images, testing on a custom dataset of 200+ image pairs."
-          - "Improved feature matching inlier ratio and reduced reprojection error by 34% through fine-tuning Restormer on custom motion-blur dataset versus SIFT-only baseline."
+          - "Built a panorama-stitching pipeline pairing a fine-tuned Restormer deblurring model with SIFT/SuperPoint feature matching; cut reprojection error 34% versus a SIFT-only baseline on 200+ motion-blurred pairs."
 
-      - name: Underwater Vehicle Manipulator System (UVMS)
-        start_date: 2024-08
-        end_date: 2025-05
+      - name: Autonomous Personal Load Carrier - Sensing & Navigation
+        start_date: 2026-08
+        end_date: 2026-12
+        summary: "Graduate team project"
         highlights:
-          - "Modeled full dynamic coupling of underwater vehicle-manipulator system in Simulink, incorporating environmental disturbances including water currents and hydrodynamic forces."
-          - "Designed Sliding Mode Controller for UVMS trajectory tracking, validating robustness to disturbances through simulation-based performance evaluation."
+          - "Developing sensor fusion and filtering/tracking for an autonomous load-carrying robot, validated in Gazebo."
 
-      - name: Self-Balancing Omniwheel RC Bike
-        start_date: 2023-08
-        end_date: 2024-05
-        highlights:
-          - "Reached the final round of the E-Yantra national competition (IIT Bombay) by implementing an LQR controller for a self-balancing omniwheel robot with <3° tilt tolerance, validated through CoppeliaSim simulation and hardware testing."
+      # Hidden 2026-11 — not on Nov resume; decide later whether to show
+      # - name: Underwater Vehicle Manipulator System (UVMS)
+      #   start_date: 2024-08
+      #   end_date: 2025-05
+      #   highlights:
+      #     - "Modeled full dynamic coupling of underwater vehicle-manipulator system in Simulink, incorporating environmental disturbances including water currents and hydrodynamic forces."
+      #     - "Designed Sliding Mode Controller for UVMS trajectory tracking, validating robustness to disturbances through simulation-based performance evaluation."
+      #
+      # - name: Self-Balancing Omniwheel RC Bike
+      #   start_date: 2023-08
+      #   end_date: 2024-05
+      #   highlights:
+      #     - "Reached the final round of the E-Yantra national competition (IIT Bombay) by implementing an LQR controller for a self-balancing omniwheel robot with <3° tilt tolerance, validated through CoppeliaSim simulation and hardware testing."
+      #
+      # - name: Wrist Rehabilitation Robot
+      #   start_date: 2024-01
+      #   end_date: 2025-01
+      #   highlights:
+      #     - "Designed 2-DOF wrist rehabilitation robot with game-based therapy interface, fabricating 3D-printed mechanical components and integrating servo control system for adjustable resistance based on patient range of motion."
 
-      - name: Wrist Rehabilitation Robot
-        start_date: 2024-01
-        end_date: 2025-01
-        highlights:
-          - "Designed 2-DOF wrist rehabilitation robot with game-based therapy interface, fabricating 3D-printed mechanical components and integrating servo control system for adjustable resistance based on patient range of motion."
+    "Publication & Leadership":
+      - bullet: "Led a ROS2 workshop for 70+ students with the campus robotics club."
+      - bullet: "E-Yantra national finalist (IIT Bombay) for an LQR self-balancing robot."
 
     Skills:
       - name: Programming
-        keywords: "Python, C++, C, MATLAB"
+        keywords: "Python, C++, MATLAB"
       - name: ML / Vision
-        keywords: "PyTorch, OpenCV, VLMs & VLA models, diffusion models, DINOv2, CNNs (YOLO, Faster R-CNN), SIFT, SuperPoint, ORB-SLAM"
-      - name: Development Tools
-        keywords: "Docker, Linux, CMake, Git, AutoCAD"
-      - name: Robotics
-        keywords: "ROS, ROS2, PX4, Gazebo, CoppeliaSim"
+        keywords: "PyTorch, OpenCV, VLMs & VLAs, ACT, SmolVLA, SAM3, diffusion models, DINOv2, SIFT/SuperPoint"
+      - name: Tools & Robotics
+        keywords: "Docker, Linux, Git; ROS2, PX4, Gazebo, LeRobot"
