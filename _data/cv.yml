@@ -102,6 +102,7 @@ cv:
           - "Adapting a multimodal RAG pipeline to automate surgical operative-note generation from procedural video, as part of a research team working toward publication."
 
       - name: Multi-Task Imitation Learning on SO-101 Arm
+        url: https://github.com/shilpitha-03/hrl-so101-bundle
         start_date: 2026-08
         end_date: 2026-12
         summary: "Graduate course project"
